@@ -2,6 +2,11 @@
 
 This Python script fetches consumption metrics from the Scaleway API and exposes them as Prometheus metrics. It periodically retrieves consumption data for various categories, projects, and months, and exposes them via an HTTP server for Prometheus scraping.
 
+
+## Screenshot - Grafana Dashboard
+
+![Screenshot](grafana-dashboard/screenshot.png)
+
 ## Requirements
 
 - Python 3.x
